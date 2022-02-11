@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+@import url("./css/colors.css");
+
+body {
+    background: var(--secondary);
+    font-family: 'Baloo 2', cursive;
+    color: var(--smoke);
+}
+
+.nav-header {
+    background: var(--primary-color);
+    font-size: 1.5rem;
+    padding: 0 4rem;
+}
+
+.menu-list-items {
+    font-size: 1.2rem;
+}
+
+.menu-list-items a {
+    color: var(--smoke);
+    text-decoration: none;
+}
+
+.menu-list-items:hover {
+    background: var(--primary-color);
+    filter: brightness(90%);
+}
+
+.hglt {
+    background-color: var(--secondary);
+    border-radius: 15px;
+    margin: 0.3rem 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main-title {
+    padding: 5rem 0 2rem;
+    font-size: 4rem;
+}
+
+.main-title + p {
+    padding: 0 40vh 5rem;
+}
+
+img[alt = "Logo"] {
+    height: 10rem;
+}
