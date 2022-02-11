@@ -1,0 +1,63 @@
+@import url("../categories/style.css");
+@import url("../../css/colors.css");
+
+.signin, .signup {
+    padding: 1rem;
+    position: absolute;
+    top: 1rem;
+    border-radius: 5px;
+    height: 70vh;
+    width: 50vh;
+    background-color: var(--secondary);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form-grp {
+    gap: 3rem;
+}
+
+.form-grp .input-grp label {
+    font-size: 1.5rem;
+}
+
+.form-grp .input-grp input {
+    font-size: 1rem;
+}
+
+.input-grp {
+    gap: 0.5rem;
+}
+.form-grp span {
+    text-align: center;
+}
+
+input[type = "submit"] {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    width: max-content;
+    background: var(--primary-color);
+    color: var(--smoke);
+    font-weight: bold;
+}
+
+.form-grp span div span {
+    padding: 0.5rem 0;
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
