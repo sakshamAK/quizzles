@@ -1,0 +1,7 @@
+.container {
+    flex-direction: row;
+}
+
+.content-desc span {
+    font-size: 1rem;
+}
