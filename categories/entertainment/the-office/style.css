@@ -1,0 +1,58 @@
+@import url("../../../css/colors.css");
+
+.container {
+    padding: 4rem 8rem;
+}
+
+.quiz-box {
+    background: var(--smoke);
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary);
+}
+
+.score-time {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.quiz-form ol {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.quiz-form ol li::marker {
+    font-weight: bold;
+}
+
+.ques {
+    font-weight: bold;
+    text-align: left;
+}
+
+.opt {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: 1.2rem;
+}
+
+.opt input[type = "radio"] {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.opt label {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.btn {
+    background: var(--primary-color);
+}
