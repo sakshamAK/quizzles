@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
-@import url("./css/colors.css");
+@import url("../../css/colors.css");
 
 body {
     background: var(--secondary);
@@ -26,4 +26,61 @@ body {
 .menu-list-items:hover {
     background: var(--primary-color);
     filter: brightness(90%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20rem;
+    backface-visibility: hidden;
+}
+
+.flip-card {
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.card .content-desc, .card .btn {
+    font-size: 1.2rem;
+}
+
+.btn-grp {
+    margin: 1rem;
+    margin-top: 0;
+    justify-content: flex-end;
+}
+
+.btn {
+    padding: 0.2rem 0.5rem;
+    background: var(--primary-color);
+}
+
+
+.quiz-rules {
+    top: 0;
+    position: absolute;
+    color: var(--secondary);
+    width: 100%;
+    background: white;
+    transform: rotateY(180deg);
+    z-index: -1;
+    padding: 1rem;
+    cursor: pointer;;
+}
+
+.flipit {
+    transform: rotateY(180deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.font-black {
+    color: var(--secondary);
 }
