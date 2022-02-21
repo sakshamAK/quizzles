@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+@import url("../../css/colors.css");
+
+body {
+    background: var(--secondary);
+    font-family: 'Baloo 2', cursive;
+    color: var(--smoke);
+}
+
+.nav-header {
+    background: var(--primary-color);
+    font-size: 1.5rem;
+    padding: 0 4rem;
+}
+
+.menu-list-items {
+    font-size: 1.2rem;
+    padding: 0.8rem 1rem;
+}
+
+.menu-list-items a {
+    color: var(--smoke);
+    text-decoration: none;
+}
+
+.menu-list-items:hover {
+    background: var(--primary-color);
+    filter: brightness(90%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.quiz-box {
+    width: 100%;
+    text-align: center;
+}
+
+.list-grp {
+    background-color: transparent;
+    border: none;
+}
+
+.list-item {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.quiz-result {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.qna {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 2rem;
+}
+
+.qna span {
+    display: flex;
+    gap: 1rem;
+}
+
+.qna .btn {
+    margin-left:  auto;
+}
+
+.qna span:first-child h3{
+    color: var(--success);
+}
+.qna span:last-child h3{
+    color: var(--danger);
+}
+
+.quiz-box h1{
+    font-size: 3rem;
+}
