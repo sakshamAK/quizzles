@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizzles | Categories</title>
     <link rel="stylesheet" href="https://paperui.netlify.app/components.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet" />
     <link rel="shortcut icon" href="../../images/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
@@ -14,17 +16,23 @@
 
 <body>
     <nav class="nav-header">
+        <i class="material-icons menu">menu</i>
         <div class="brand-name">Quizzles</div>
-        <ul class="menu-list">
+        <ul class="menu-list drop-down">
+            <li class="menu-list-items"><i class="material-icons close">close</i></li>
             <li class="menu-list-items">
                 <a href="../categories/">Categories</a>
             </li>
             <li class="menu-list-items">
-                <a href="../rules/">Rules</a>
+                <a href="../results/">Results</a>
             </li>
             <li class="menu-list-items">
                 <a href="../signin/">Sign In</a>
             </li>
+        </ul>
+        <ul class = "menu-list short-menu">
+            <li class="menu-list-items"><a href = "../categories/" class = "account-details"><i class="material-icons">category</i></a></li>
+            <li class="menu-list-items"><a href = "../signin/" class = "account-details"><i class="material-icons">person</i></a></li>
         </ul>
     </nav>
     <div class="container">

@@ -2,7 +2,6 @@
 @import url("../../css/colors.css");
 
 .signin, .signup {
-    padding: 1rem;
     position: absolute;
     top: 1rem;
     border-radius: 5px;
@@ -60,4 +59,11 @@ input[type = "submit"] {
 .container {
     width: 100%;
     position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .signin, 
+    .signup {
+        padding: 4rem;
+    }
 }

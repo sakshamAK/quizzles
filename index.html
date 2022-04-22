@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://paperui.netlify.app/components.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://paperui.netlify.app/components.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet" />
     <title>Quizzles</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
+    <script src="script.js" defer></script>
 </head>
 <body>
     <nav class="nav-header">
+        <i class="material-icons menu">menu</i>
         <div class="brand-name">Quizzles</div>
-        <ul class="menu-list">
+        <ul class="menu-list drop-down">
+            <li class="menu-list-items"><i class="material-icons close">close</i></li>
             <li class="menu-list-items hglt"><a href = "./quizzle-book/categories/">Categories</a></li>
-            <li class="menu-list-items"><a href = "./quizzle-book/rules/">Rules</a></li>
+            <li class="menu-list-items"><a href = "./quizzle-book/results/">Results</a></li>
             <li class="menu-list-items"><a href = "./quizzle-book/signin/">Sign In</a></li>
+        </ul>
+        <ul class = "menu-list short-menu">
+            <li class="menu-list-items"><a href = "./quizzle-book/categories/" class = "account-details"><i class="material-icons">category</i></a></li>
+            <li class="menu-list-items"><a href = "./quizzle-book/signin/" class = "account-details"><i class="material-icons">person</i></a></li>
         </ul>
     </nav>
     <main class="container">

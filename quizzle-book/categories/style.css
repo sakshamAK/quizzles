@@ -10,7 +10,7 @@ body {
 .nav-header {
     background: var(--primary-color);
     font-size: 1.5rem;
-    padding: 0 4rem;
+    padding: 0 clamp(1rem, 6vw ,4rem);
 }
 
 .menu-list-items {
@@ -90,4 +90,60 @@ body {
 
 .font-black {
     color: var(--secondary);
+}
+
+.menu {
+    margin-right: 1rem;
+    display: none;
+}
+
+.close {
+    display: none;
+    margin-left: auto;
+}
+
+.account-details {
+    display: flex;
+    align-items: center;
+}
+
+.short-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 610px) {
+    .menu,
+    .menu-list.short-menu,
+    .close {
+        display: block;
+        display: flex;
+    }   
+    .drop-down {
+        flex-direction: column;
+        position: absolute;
+        top: -100vh;
+        background-color: var(--secondary);
+        left: 0;
+        right: 0;
+        z-index: 2;
+        padding: 4rem;
+    }
+    .hglt {
+        border-radius: 0;
+        margin: 0;
+        background-color: var(--primary-color);
+    }
+    .brand-name {
+        padding: 0.5rem 0;
+    }
+    .menu-list-items:first-child:hover {
+        background-color: var(--secondary);
+    }
+    .menu-list-items:first-child {
+        cursor: default;
+    }
+    .close,
+    .menu {
+        cursor: pointer;
+    }
 }
