@@ -16,7 +16,7 @@ Quizzles is a small quiz game just for fun.
 1. Each game card has a rules page behind it, just flip the card, read the rules, and play the game and have fun.
 
 ## Live Link
-[Artisan](https://quizzles-ak.netlify.app/)
+[Quizzles](https://quizzles-ak.netlify.app/)
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/55906931/164793686-60473da7-0517-4a2f-909c-0a9ff56e5baa.png)
