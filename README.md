@@ -19,10 +19,9 @@ Quizzles is a small quiz game just for fun.
 [Artisan](https://quizzles-ak.netlify.app/)
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/55906931/155006920-c21123d1-2218-4df9-aec3-9bb31395ebff.png)
-![image](https://user-images.githubusercontent.com/55906931/155006958-d334e04c-a64c-4ec2-9e33-346de6efbbec.png)
-![image](https://user-images.githubusercontent.com/55906931/155006985-45456d56-40d6-432a-8f3d-7cb30d0a23c3.png)
-![image](https://user-images.githubusercontent.com/55906931/155006999-1fd1dfac-a1c4-4693-a2b2-55416d4a6b9c.png)
-![image](https://user-images.githubusercontent.com/55906931/155007022-e4302bf3-a015-45f7-bd3c-c1ac6f3a1270.png)
-
+![image](https://user-images.githubusercontent.com/55906931/164793686-60473da7-0517-4a2f-909c-0a9ff56e5baa.png)
+![image](https://user-images.githubusercontent.com/55906931/164793712-3fa2d598-f44a-47d0-b9b8-9f56f7856659.png)
+![image](https://user-images.githubusercontent.com/55906931/164793744-8d59aec7-47d8-4057-b192-b54f36f5834b.png)
+![image](https://user-images.githubusercontent.com/55906931/164793764-75f68457-f544-4dec-9bc0-8f6f304a7fd9.png)
+![image](https://user-images.githubusercontent.com/55906931/164793786-0e5ee3ad-9030-4ebb-b1f0-3fa984dcc32c.png)
 
